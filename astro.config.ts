@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://kyohenoki.github.io/bunkatsucopyparty',
+  site: 'https://kyohenoki.workers.dev',
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
