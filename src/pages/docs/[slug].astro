@@ -1,0 +1,31 @@
+---
+import Aida from '@/katachi/aida.astro'
+import Kihon, { type Metadata } from '@/katachi/kihon.astro'
+import { render } from 'astro:content'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const docs = await getCollection('docs')
+  return docs.map((slug) => ({
+    params: { slug: slug.id },
+    props: { slug },
+  }))
+}
+
+const { slug } = Astro.props
+
+const metadata: Metadata = {
+  title: slug.data.title,
+  description: slug.data.description,
+}
+
+const { Content } = await render(slug)
+---
+
+<Kihon metadata={metadata}>
+  <Aida>
+    <h2><a href="/">home</a> &gt; {slug.data.title}</h2>
+    <h1 class="text-[1.4rem] text-[var(--mozi)]">{slug.data.title}</h1>
+    <Content />
+  </Aida>
+</Kihon>

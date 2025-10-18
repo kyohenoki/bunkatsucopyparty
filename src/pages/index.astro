@@ -1,20 +1,36 @@
 ---
 import Aida from '@/katachi/aida.astro'
 import Kihon, { type Metadata } from '@/katachi/kihon.astro'
+import { getCollection } from 'astro:content'
 
 const metadata: Metadata = {
   title: 'bunkatsucopyparty',
-  description: 'bunkatsucopyparty について',
+  description: '入口',
 }
+
+const docs = (await getCollection('docs')).sort((a, b) => a.data.number - b.data.number)
 ---
 
 <Kihon metadata={metadata}>
   <Aida>
-    <h1 class="text-[1.4rem] text-[var(--mozi)]">入口</h1>
+    <h1 class="text-[1.4rem] text-[var(--mozi)]">home</h1>
     <h2>
       <a href="https://github.com/9001/copyparty" class="link">copyparty</a> の分割された README へようこそ！
     </h2>
-    <h3>翻訳には google 翻訳を使っています、分かりづらい部分があるかもしれません</h3>
-    <h3>英語版を見る</h3>
+    <h3>翻訳には google 翻訳を使ってるため、分かりづらい部分があるかもしれません</h3>
+    <h3>情報は 2025/10/18 時点での README に基づいてます</h3>
+    <h3>目次</h3>
+    <ul class="flex flex-col gap-3 text-[1.25rem] text-[var(--mozi)]">
+      {
+        docs.map((slug) => (
+          <li>
+            <h4 class="mb-0.5">
+              <a href={`/docs/${slug.id}`}>{slug.data.title}</a>
+            </h4>
+            <h5 class="text-[1.1rem] text-[var(--sho)]">{slug.data.description}</h5>
+          </li>
+        ))
+      }
+    </ul>
   </Aida>
 </Kihon>

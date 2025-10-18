@@ -5,12 +5,20 @@
   --mozi: #1c1c1c;
   --sho: #6e6e6e;
   --ao: #0620cb;
+  --usu: #d8dae5;
+  --code: #37383f;
 }
 
 body {
   background-color: var(--haikei);
   color: var(--sho);
-  font-family: 'Inter', 'Inter Variable', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  font-family:
+    'Inter', 'Inter Variable', 'Helvetica Neue', 'Segoe UI Variable Display', 'Hiragino Sans', 'Noto Sans JP',
+    sans-serif;
+}
+
+code {
+  font-family: 'Lilex', 'JetBrains Mono', 'SF Mono', monospace;
 }
 
 ::selection {
@@ -20,4 +28,12 @@ body {
 
 .link {
   @apply text-[var(--ao)];
+}
+
+code {
+  background-color: var(--usu);
+  color: var(--code);
+  font-size: 85%;
+  font-weight: 500;
+  @apply rounded-sm px-1.5 py-0.5;
 }
