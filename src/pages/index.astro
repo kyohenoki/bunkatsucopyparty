@@ -1,0 +1,20 @@
+---
+import Aida from '@/katachi/aida.astro'
+import Kihon, { type Metadata } from '@/katachi/kihon.astro'
+
+const metadata: Metadata = {
+  title: 'bunkatsucopyparty',
+  description: 'bunkatsucopyparty について',
+}
+---
+
+<Kihon metadata={metadata}>
+  <Aida>
+    <h1 class="text-[1.4rem] text-[var(--mozi)]">入口</h1>
+    <h2>
+      <a href="https://github.com/9001/copyparty" class="link">copyparty</a> の分割された README へようこそ！
+    </h2>
+    <h3>翻訳には google 翻訳を使っています、分かりづらい部分があるかもしれません</h3>
+    <h3>英語版を見る</h3>
+  </Aida>
+</Kihon>

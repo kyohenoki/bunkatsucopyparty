@@ -1,0 +1,17 @@
+---
+import Aida from '@/katachi/aida.astro'
+import Kihon, { type Metadata } from '@/katachi/kihon.astro'
+
+const metadata: Metadata = {
+  title: '404',
+  description: '何もないみたい',
+}
+---
+
+<Kihon metadata={metadata}>
+  <Aida>
+    <h1 class="text-[1.4rem] text-[var(--mozi)]">404</h1>
+    <h2><a href="https://github.com/9001/copyparty" class="link">copyparty</a> を使ってみよう</h2>
+    <h3><a href="/" class="link">入口へ戻る</a></h3>
+  </Aida>
+</Kihon>
