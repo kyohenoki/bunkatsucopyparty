@@ -1,5 +1,6 @@
 ---
 number: 23
+lang: en
 title: race the beam
 description: download files while they're still uploading
 date: 2025/10/18 23:28

@@ -1,5 +1,6 @@
 ---
 number: 31
+lang: en
 title: media player
 description: plays almost every audio format there is
 date: 2025/10/18 23:54

@@ -1,5 +1,6 @@
 ---
 number: 3
+lang: en
 title: features
 description: copyparty の機能
 date: 2025/10/18 22:33

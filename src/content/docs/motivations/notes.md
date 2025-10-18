@@ -1,5 +1,6 @@
 ---
 number: 6
+lang: en
 title: notes
 description: notes
 date: 2025/10/18 22:49

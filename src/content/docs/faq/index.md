@@ -1,5 +1,6 @@
 ---
 number: 10
+lang: en
 title: faq
 description: faq
 date: 2025/10/18 22:54

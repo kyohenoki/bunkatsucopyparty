@@ -1,5 +1,6 @@
 ---
 number: 29
+lang: en
 title: opds feeds
 description: browse and download files from your e-book reader
 date: 2025/10/18 23:52

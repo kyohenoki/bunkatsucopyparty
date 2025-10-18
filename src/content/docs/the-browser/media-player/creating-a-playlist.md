@@ -1,5 +1,6 @@
 ---
 number: 33
+lang: en
 title: creating a playlist
 description: with a standalone mediaplayer or copyparty
 date: 2025/10/18 23:57

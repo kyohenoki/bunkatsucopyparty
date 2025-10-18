@@ -1,5 +1,6 @@
 ---
 number: 35
+lang: en
 title: fix unreliable playback on android
 description: due to phone / app settings
 date: 2025/10/18 0:00

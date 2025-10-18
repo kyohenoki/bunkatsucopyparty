@@ -1,5 +1,6 @@
 ---
 number: 37
+lang: en
 title: markdown viewer
 description: and there are *two* editors
 date: 2025/10/18 0:02

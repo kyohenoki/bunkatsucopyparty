@@ -1,5 +1,6 @@
 ---
 number: 8
+lang: en
 title: not my bugs
 description: not my bugs
 date: 2025/10/18 22:51

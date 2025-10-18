@@ -1,5 +1,6 @@
 ---
 number: 32
+lang: en
 title: playlists
 description: create and play m3u8 playlists
 date: 2025/10/18 23:56

@@ -1,5 +1,6 @@
 ---
 number: 28
+lang: en
 title: rss feeds
 description: monitor a folder with your RSS reader
 date: 2025/10/18 23:52

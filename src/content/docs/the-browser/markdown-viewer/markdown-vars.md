@@ -1,5 +1,6 @@
 ---
 number: 38
+lang: en
 title: markdown vars
 description: dynamic docs with serverside variable expansion
 date: 2025/10/18 0:04

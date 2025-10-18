@@ -1,5 +1,6 @@
 ---
 number: 4
+lang: en
 title: testimonials
 description: copyparty のお客様の声
 date: 2025/10/18 22:44

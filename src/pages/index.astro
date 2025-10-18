@@ -5,20 +5,20 @@ import { getCollection } from 'astro:content'
 
 const metadata: Metadata = {
   title: 'bunkatsucopyparty',
-  description: '入口',
+  description: 'homepage',
 }
 
-const docs = (await getCollection('docs')).sort((a, b) => a.data.number - b.data.number)
+const docs = (await getCollection('mokuzi')).sort((a, b) => a.data.number - b.data.number)
 ---
 
-<Kihon metadata={metadata}>
+<Kihon metadata={metadata} lang="ja">
   <Aida>
-    <h1 class="text-[1.4rem] text-[var(--mozi)]">home</h1>
+    <h1 class="text-[1.4rem] text-[var(--mozi)]">homepage</h1>
     <h2>
       <a href="https://github.com/9001/copyparty" class="link">copyparty</a> の分割された README へようこそ！
     </h2>
-    <h3>翻訳には google 翻訳を使ってるため、分かりづらい部分があるかもしれません</h3>
-    <h3>情報は 2025/10/18 時点での README に基づいてます</h3>
+    <h3>情報は 2025年10月18日時点での README に基づいてます</h3>
+    <h3>v1.19.17 コードネーム read:cbz + re:ftp</h3>
     <h3>目次</h3>
     <ul class="flex flex-col gap-3 text-[1.25rem] text-[var(--mozi)]">
       {

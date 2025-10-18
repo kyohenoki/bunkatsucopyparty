@@ -1,5 +1,6 @@
 ---
 number: 27
+lang: en
 title: batch rename
 description: select some files and press `F2` to bring up the rename UI
 date: 2025/10/18 23:43

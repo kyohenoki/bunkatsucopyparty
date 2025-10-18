@@ -1,7 +1,8 @@
 ---
 number: 0
+lang: en
 title: copyparty
-description: copyparty
+description: copyparty について
 date: 2025/10/18 21:11
 update: 2025/10/18 22:17
 ---

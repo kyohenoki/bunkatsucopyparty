@@ -1,5 +1,6 @@
 ---
 number: 2
+lang: en
 title: quickstart
 description: copyparty を動かす方法
 date: 2025/10/18 21:48

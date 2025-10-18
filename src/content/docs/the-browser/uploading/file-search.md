@@ -1,5 +1,6 @@
 ---
 number: 20
+lang: en
 title: file-search
 description: dropping files into the browser also lets you see if they exist on the server
 date: 2025/10/18 23:23

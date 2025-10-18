@@ -1,5 +1,6 @@
 ---
 number: 24
+lang: en
 title: incoming files
 description: the control-panel shows the ETA for all incoming files
 date: 2025/10/18 23:35

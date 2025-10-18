@@ -1,5 +1,6 @@
 ---
 number: 36
+lang: en
 title: textfile viewer
 description: with realtime streaming of logfiles and such
 date: 2025/10/18 0:01

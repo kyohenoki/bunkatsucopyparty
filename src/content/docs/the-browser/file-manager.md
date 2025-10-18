@@ -1,5 +1,6 @@
 ---
 number: 25
+lang: en
 title: file manager
 description: cut/paste, rename, and delete files/folders (if you have permission)
 date: 2025/10/18 23:37

@@ -8,11 +8,11 @@ export type Metadata = {
   description: string
 }
 
-const { metadata } = Astro.props
+const { metadata, lang } = Astro.props
 ---
 
 <!doctype html>
-<html lang="ja" transition:name="root" transition:animate="none">
+<html lang={lang} transition:name="root" transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

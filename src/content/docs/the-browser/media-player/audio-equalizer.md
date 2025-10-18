@@ -1,5 +1,6 @@
 ---
 number: 34
+lang: en
 title: audio equalizer
 description: and dynamic range compressor
 date: 2025/10/18 23:57

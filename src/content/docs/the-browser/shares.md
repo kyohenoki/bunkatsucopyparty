@@ -1,5 +1,6 @@
 ---
 number: 26
+lang: en
 title: shares
 description: share a file or folder by creating a temporary link
 date: 2025/10/18 23:39

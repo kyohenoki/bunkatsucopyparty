@@ -1,5 +1,6 @@
 ---
 number: 13
+lang: en
 title: dotfiles
 description: dotfiles
 date: 2025/10/18 22:57

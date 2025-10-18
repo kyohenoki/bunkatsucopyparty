@@ -22,9 +22,9 @@ const metadata: Metadata = {
 const { Content } = await render(slug)
 ---
 
-<Kihon metadata={metadata}>
+<Kihon metadata={metadata} lang={slug.data.lang}>
   <Aida>
-    <h2><a href="/">home</a> &gt; {slug.data.title}</h2>
+    <h2><a href="/">home</a> &gt; {slug.id}</h2>
     <h1 class="text-[1.4rem] text-[var(--mozi)]">{slug.data.title}</h1>
     <div class="moziro kankaku kodo kowaku midashi hoki htsu bo noko retsu gazo prose w-full max-w-none">
       <Content />

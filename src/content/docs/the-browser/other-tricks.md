@@ -1,5 +1,6 @@
 ---
 number: 39
+lang: en
 title: other tricks
 description: other tricks
 date: 2025/10/18 0:06

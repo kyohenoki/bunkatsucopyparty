@@ -1,5 +1,6 @@
 ---
 number: 1
+lang: en
 title: readme toc
 description: readme toc
 date: 2025/10/18 22:42
@@ -7,12 +8,12 @@ update: none
 ---
 
 - top
-  - [quickstart](#quickstart) - just run **[copyparty-sfx.py](https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py)** -- that's it! 🎉
-    - [at home](#at-home) - make it accessible over the internet
-    - [on servers](#on-servers) - you may also want these, especially on servers
-  - [features](#features) - also see [comparison to similar software](./docs/versus.md)
-  - [testimonials](#testimonials) - small collection of user feedback
-- [motivations](#motivations) - project goals / philosophy
+  - [quickstart](/docs/top/quickstart) - just run **[copyparty-sfx.py](https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py)** -- that's it! 🎉
+    - [at home](/docs/top/quickstart#at-home) - make it accessible over the internet
+    - [on servers](/docs/top/quickstart#on-servers) - you may also want these, especially on servers
+  - [features](/docs/top/features) - also see [comparison to similar software](./docs/versus.md)
+  - [testimonials](/docs/top/testimonials) - small collection of user feedback
+- [motivations](/docs/motivations) - project goals / philosophy
   - [notes](#notes) - general notes
 - [bugs](#bugs) - roughly sorted by chance of encounter
   - [not my bugs](#not-my-bugs) - same order here too

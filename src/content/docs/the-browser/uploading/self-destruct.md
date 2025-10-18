@@ -1,5 +1,6 @@
 ---
 number: 22
+lang: en
 title: self-destruct
 description: uploads can be given a lifetime
 date: 2025/10/18 23:26

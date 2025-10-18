@@ -1,5 +1,6 @@
 ---
 number: 17
+lang: en
 title: thumbnails
 description: thumbnails
 date: 2025/10/18 23:10

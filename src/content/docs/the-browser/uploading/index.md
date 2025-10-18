@@ -1,5 +1,6 @@
 ---
 number: 19
+lang: en
 title: uploading
 description: drag files/folders into the web-browser to upload
 date: 2025/10/18 23:21
