@@ -14,4 +14,13 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
+  markdown: {
+    syntaxHighlight: 'shiki',
+    shikiConfig: {
+      themes: {
+        light: 'vitesse-light',
+        dark: 'vitesse-dark',
+      },
+    },
+  },
 })

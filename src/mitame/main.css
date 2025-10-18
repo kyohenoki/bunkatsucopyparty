@@ -1,12 +1,13 @@
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 
 :root {
   --haikei: #f7f7f7;
   --mozi: #1c1c1c;
   --sho: #6e6e6e;
   --ao: #0620cb;
-  --usu: #d8dae5;
-  --code: #37383f;
+  --usu: #e1e1e1;
+  --code: #434343;
 }
 
 body {
@@ -30,10 +31,67 @@ code {
   @apply text-[var(--ao)];
 }
 
-code {
-  background-color: var(--usu);
-  color: var(--code);
-  font-size: 85%;
-  font-weight: 500;
-  @apply rounded-sm px-1.5 py-0.5;
+.moziro {
+  @apply prose-p:text-[1.1rem] prose-p:text-[var(--sho)] prose-strong:text-[var(--shf)];
+}
+
+.kankaku {
+  @apply prose-p:mt-0 prose-p:mb-3 prose-pre:mt-0 prose-pre:mb-3;
+}
+
+.kodo {
+  @apply prose-code:rounded-md prose-code:bg-[var(--usu)] prose-code:px-1 prose-code:py-0.5 prose-code:font-medium prose-code:text-[var(--sho)];
+}
+
+.kowaku {
+  @apply prose-pre:outline-[1.5px] prose-pre:outline-[var(--usu)];
+}
+
+.prose code::before,
+.prose code::after,
+.prose blockquote p::before,
+.prose blockquote p::after {
+  content: none !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  font-weight: normal !important;
+  padding: 0px !important;
+}
+
+.prose a {
+  @apply text-[var(--ao)] no-underline;
+}
+
+.midashi {
+  @apply prose-headings:mt-3 prose-headings:mb-3 prose-headings:font-medium prose-headings:text-[var(--mozi)];
+}
+
+.hoki {
+  @apply prose-h1:text-[1.55rem] prose-h2:text-[1.475rem] prose-h3:text-[1.35rem] prose-h4:text-[1.25rem];
+}
+
+.htsu {
+  @apply prose-h4:mt-2 prose-h4:mb-2;
+}
+
+.bo {
+  @apply prose-hr:my-8 prose-hr:border-[var(--usu)];
+}
+
+.noko {
+  @apply prose-blockquote:mt-0 prose-blockquote:mb-3 prose-blockquote:not-italic;
+}
+
+.retsu {
+  @apply prose-li:text-[1.1rem] prose-li:text-[var(--sho)];
+}
+
+.gazo {
+  @apply prose-img:mt-5 prose-img:mb-5;
+}
+
+img {
+  @apply bg-[var(--mozi)];
 }
